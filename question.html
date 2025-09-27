@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>My Contact</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Gular's Resume">
+  <meta name="author" content="Gular Yusubova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gular Yusubova</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+
+<body>
+
+
+<h1>My Questionnaire ⁉️</h1>
+
+<h2>
+<a href="index.html">Home</a> |
+<a href="education.html">Education</a> |
+<a href="schedule.html">Weekly Schedule</a> |
+<a href="contact.html">Contact Me</a> |
+<a href="question.html">Questionnaire</a>
+</h2>
+
+<hr style="height: 5px; background-color: black; border: none;">
+
+
+<h2>Short Questionnaire:</h2>
+
+<p>After reviewing site from the start till end, I would love to have your feedback about it.This is just short questionnaire that would take a few minutes of you!</p>
+<form action="mailto:gyusubova19960@ada.edu.az" method="POST" enctype="text/plain" target="_blank" accept-charset="UTF-8">
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="Name" required>
+
+<br>
+<br>
+
+<label for="surname">Surname:</label>
+<input type="text" id="surname" name="Surname" required>
+
+<br>
+<br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="Email" required>
+
+<br>
+<br>
+
+<p>Did you like this site?</p>
+<label><input type="radio" name="Liked_Site" value="Yes" required>Yes</label>
+<label><input type="radio" name="Liked_Site" value="No" required>No</label>
+
+<br>
+<br>
+
+<p>Which part of the site you liked most?</p>
+<label><input type="checkbox" name="home" value="Home">Home</label>
+<label><input type="checkbox" name="education" value="Education">Education</label>
+<label><input type="checkbox" name="schedule" value="Weekly Schedule">Weekly Schedule</label>
+<label><input type="checkbox" name="contact" value="Contact Me">Contact Me</label>
+
+<br>
+<br>
+
+
+<p>Rate from 1(low) to 5(high):</p>
+<label>
+    <input type="range" id="rating" name="Rating" min="1" max="5" value="3" list="ticks">
+
+    <datalist id="ticks">
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+      </datalist>
+
+    </label>
+
+<br>
+
+
+
+<p>Comments:</p>
+<label><textarea id="comment" name="Comments" placeholder="Your feedback..."></textarea></label>
+
+<br>
+<br>
+
+<button type="submit">Send</button>
+
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
